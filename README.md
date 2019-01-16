@@ -19,7 +19,7 @@ git clone https://github.com/CloudPrediction/DL_LCSP.git
 pip install -r requirements.txt
 # GPU-version pytorch
 pip install https://download.pytorch.org/whl/cu80/torch-1.0.0-cp36-cp36m-win_amd64.whl
-# or install CPU-version, if you have not GPU
+# or install CPU-version, if you do not have GPU
 # pip install https://download.pytorch.org/whl/cpu/torch-1.0.0-cp36-cp36m-win_amd64.whl
 pip install torchvision
 ```
