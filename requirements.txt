@@ -1,0 +1,4 @@
+numpy>=1.15.4
+sklearn>=0.20.0
+seaborn>=0.9.0
+matplotlib>=3.0.1
