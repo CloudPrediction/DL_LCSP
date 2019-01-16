@@ -7,7 +7,7 @@ Our work focused on the low capacity status prediction (LCSP) problem to improve
 ## Get Started
 The model is implemented in pytorch.   
 #inputs:  
-features: data_x = (d_f, d_t), where d_f denotes the dimension of time-series features, d_t denotes the time-step for LSTM network.  
+data_x: time-series features with the shape of (d_f, d_t), where d_f denotes the dimension of time-series features, d_t denotes the time-step for LSTM network.  
 key_inds: index of region VM-family key  
 #label:   
 low capacity status (0 or 1) in next 7 days.
