@@ -5,15 +5,15 @@ Our work focused on the low capacity status prediction (LCSP) problem to improve
 "Effective low capacity status prediction for cloud systems". 
 
 ## Get Started
-The model is implemented in pytorch. 
-#inputs:
-features: data_x = (d_f, d_t), where d_f denotes the dimension of time-series features, d_t denotes the time-step for LSTM network.
-key_inds: index of region VM-family key
-#label: 
+The model is implemented in pytorch.   
+#inputs:  
+features: data_x = (d_f, d_t), where d_f denotes the dimension of time-series features, d_t denotes the time-step for LSTM network.  
+key_inds: index of region VM-family key  
+#label:   
 low capacity status (0 or 1) in next 7 days.
 
 
-## Installation
+### Installation
 ```bash
 git clone https://github.com/CloudPrediction/DL_LCSP.git
 pip install -r requirements.txt
@@ -24,7 +24,7 @@ pip install https://download.pytorch.org/whl/cu80/torch-1.0.0-cp36-cp36m-win_amd
 pip install torchvision
 ```
 
-## Files
+### Files
 config.py    : configurations for hyper-parameters and data root path
 models.py    : formulate models including base LSTM, LSMT+Attention, LSTM+key Embedding, and proposed model
 train.py     : train LCSP net (model checkpoints, loss records, and evaluation metrics are saved)
