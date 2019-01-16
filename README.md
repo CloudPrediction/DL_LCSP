@@ -25,8 +25,8 @@ pip install torchvision
 ```
 
 ### Files
-config.py    : configurations for hyper-parameters and data root path
-models.py    : formulate models including base LSTM, LSMT+Attention, LSTM+key Embedding, and proposed model
-train.py     : train LCSP net (model checkpoints, loss records, and evaluation metrics are saved)
-visualize.py : visualize attention weight (heat map) and key-vector (t-SNE) results
+config.py    : configurations for hyper-parameters and data root path  
+models.py    : formulate models including base LSTM, LSMT+Attention, LSTM+key Embedding, and proposed model  
+train.py     : train LCSP net (model checkpoints, loss records, and evaluation metrics are saved)  
+visualize.py : visualize attention weight (heat map) and key-vector (t-SNE) results  
 
